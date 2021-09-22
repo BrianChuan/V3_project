@@ -241,7 +241,7 @@ AddOutputFilter chunkFilter
 		<Item Name="servo_test.vi" Type="VI" URL="../servo_test.vi"/>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="remoteControlTest.vi" Type="VI" URL="../remoteControlTest.vi"/>
-		<Item Name="path_forward.vi" Type="VI" URL="../../path_forward.vi"/>
+		<Item Name="path_Forward.vi" Type="VI" URL="../path_Forward.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
