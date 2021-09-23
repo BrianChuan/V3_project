@@ -112,6 +112,7 @@ AddOutputFilter chunkFilter
 		<Item Name="my VI" Type="Folder">
 			<Item Name="V3_IRCal_PID.vi" Type="VI" URL="../documentation/Blook/V3_IRCal_PID.vi"/>
 			<Item Name="JK_flip-flop.vi" Type="VI" URL="../my VI/JK_flip-flop.vi"/>
+			<Item Name="stepperMove (SubVI).vi" Type="VI" URL="../my VI/stepperMove (SubVI).vi"/>
 		</Item>
 		<Item Name="Blook" Type="Folder">
 			<Item Name="Action" Type="Folder">
