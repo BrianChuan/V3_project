@@ -251,6 +251,7 @@ AddOutputFilter chunkFilter
 		<Item Name="remoteControlTest.vi" Type="VI" URL="../remoteControlTest.vi"/>
 		<Item Name="path_Forward.vi" Type="VI" URL="../path_Forward.vi"/>
 		<Item Name="path_left.vi" Type="VI" URL="../path_left.vi"/>
+		<Item Name="remoteControlDistance.vi" Type="VI" URL="../remoteControlDistance.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
