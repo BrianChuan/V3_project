@@ -37,7 +37,7 @@
 	</Item>
 	<Item Name="NI-myRIO-1900-ReMi95" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">NI-myRIO-1900-ReMi95</Property>
-		<Property Name="alias.value" Type="Str">192.168.50.146</Property>
+		<Property Name="alias.value" Type="Str">172.22.11.2</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,762F;TARGET_TYPE,RT;FPGAPersonality,myRIO_FP_Default;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">762F</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
@@ -185,7 +185,6 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="System" Type="Folder">
 				<Item Name="LowLevel" Type="Folder">
-					<Item Name="Bitfile" Type="Folder"/>
 					<Item Name="Buzzer.vi" Type="VI" URL="../WSCbot_V3_Toolkit.lvlibp/WSCBOTV3_Toolkit/System/LowLevel/Buzzer.vi"/>
 					<Item Name="EMS.vi" Type="VI" URL="../WSCbot_V3_Toolkit.lvlibp/WSCBOTV3_Toolkit/System/LowLevel/EMS.vi"/>
 					<Item Name="FPGAReferenceSmartOpen.vi" Type="VI" URL="../WSCbot_V3_Toolkit.lvlibp/WSCBOTV3_Toolkit/System/LowLevel/FPGAReferenceSmartOpen.vi"/>
@@ -501,10 +500,10 @@ AddOutputFilter chunkFilter
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="wscbotv3fpga_FPGATarget_WSCFPGA_1MB0KIQffZQ.lvbitx" Type="Document" URL="//Mac/Home/Desktop/V3_Toolkit/WSCbot_V3_Toolkit/WSCBOTV3_Toolkit/System/LowLevel/Bitfile/wscbotv3fpga_FPGATarget_WSCFPGA_1MB0KIQffZQ.lvbitx"/>
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="wscbotv3fpga_0928withoutSMBus.lvbitx" Type="Document" URL="//Mac/Home/Desktop/V3_Toolkit/WSCbot_V3_Toolkit/WSCBOTV3_Toolkit/System/LowLevel/Bitfile/wscbotv3fpga_0928withoutSMBus.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
