@@ -26,13 +26,7 @@
 			</Item>
 			<Item Name="myRIO Project Documentation.html" Type="Document" URL="../documentation/myRIO Project Documentation.html"/>
 		</Item>
-		<Item Name="test0927.vi" Type="VI" URL="../test0927.vi"/>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
-				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
-			</Item>
-		</Item>
+		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="NI-myRIO-1900-ReMi95" Type="RT myRIO">
@@ -186,6 +180,7 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="System" Type="Folder">
 				<Item Name="LowLevel" Type="Folder">
+					<Item Name="Bitfile" Type="Folder"/>
 					<Item Name="Buzzer.vi" Type="VI" URL="../WSCbot_V3_Toolkit.lvlibp/WSCBOTV3_Toolkit/System/LowLevel/Buzzer.vi"/>
 					<Item Name="EMS.vi" Type="VI" URL="../WSCbot_V3_Toolkit.lvlibp/WSCBOTV3_Toolkit/System/LowLevel/EMS.vi"/>
 					<Item Name="FPGAReferenceSmartOpen.vi" Type="VI" URL="../WSCbot_V3_Toolkit.lvlibp/WSCBOTV3_Toolkit/System/LowLevel/FPGAReferenceSmartOpen.vi"/>
@@ -246,11 +241,12 @@ AddOutputFilter chunkFilter
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../WSCbot_V3_Toolkit.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="servo_test.vi" Type="VI" URL="../servo_test.vi"/>
-		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
+		<Item Name="SteppperMotorTest.vi" Type="VI" URL="../SteppperMotorTest.vi"/>
 		<Item Name="remoteControlTest.vi" Type="VI" URL="../remoteControlTest.vi"/>
 		<Item Name="path_Forward.vi" Type="VI" URL="../path_Forward.vi"/>
 		<Item Name="path_left.vi" Type="VI" URL="../path_left.vi"/>
 		<Item Name="remoteControlDistance.vi" Type="VI" URL="../remoteControlDistance.vi"/>
+		<Item Name="test0927.vi" Type="VI" URL="../test0927.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
@@ -506,7 +502,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="wscbotv3fpga_0928withoutSMBus.lvbitx" Type="Document" URL="//Mac/Home/Desktop/V3_Toolkit/WSCbot_V3_Toolkit/WSCBOTV3_Toolkit/System/LowLevel/Bitfile/wscbotv3fpga_0928withoutSMBus.lvbitx"/>
+			<Item Name="wscbotv3fpga_FPGATarget_WSCFPGA_1MB0KIQffZQ.lvbitx" Type="Document" URL="//Mac/Home/Desktop/V3_Toolkit/WSCbot_V3_Toolkit/WSCBOTV3_Toolkit/System/LowLevel/Bitfile/wscbotv3fpga_FPGATarget_WSCFPGA_1MB0KIQffZQ.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
