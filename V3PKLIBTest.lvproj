@@ -115,6 +115,7 @@ AddOutputFilter chunkFilter
 			<Item Name="stepperMove (SubVI).vi" Type="VI" URL="../my VI/stepperMove (SubVI).vi"/>
 			<Item Name="StepperGoHome.vi" Type="VI" URL="../my VI/StepperGoHome.vi"/>
 			<Item Name="IR_ValueDisplay.vi" Type="VI" URL="../my VI/IR_ValueDisplay.vi"/>
+			<Item Name="ServoMotor_slowMove.vi" Type="VI" URL="../my VI/ServoMotor_slowMove.vi"/>
 		</Item>
 		<Item Name="Blook" Type="Folder">
 			<Item Name="Action" Type="Folder">
