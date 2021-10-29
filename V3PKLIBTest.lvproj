@@ -116,6 +116,7 @@ AddOutputFilter chunkFilter
 			<Item Name="StepperGoHome.vi" Type="VI" URL="../my VI/StepperGoHome.vi"/>
 			<Item Name="IR_ValueDisplay.vi" Type="VI" URL="../my VI/IR_ValueDisplay.vi"/>
 			<Item Name="ServoMotor_slowMove.vi" Type="VI" URL="../my VI/ServoMotor_slowMove.vi"/>
+			<Item Name="Beep.vi" Type="VI" URL="../my VI/Beep.vi"/>
 		</Item>
 		<Item Name="Blook" Type="Folder">
 			<Item Name="Action" Type="Folder">
@@ -244,7 +245,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="servo_test.vi" Type="VI" URL="../servo_test.vi"/>
 		<Item Name="SteppperMotorTest.vi" Type="VI" URL="../SteppperMotorTest.vi"/>
-		<Item Name="remoteControlTest.vi" Type="VI" URL="../remoteControlTest.vi"/>
+		<Item Name="RemoteControl.vi" Type="VI" URL="../RemoteControl.vi"/>
 		<Item Name="path_Forward.vi" Type="VI" URL="../path_Forward.vi"/>
 		<Item Name="path_left.vi" Type="VI" URL="../path_left.vi"/>
 		<Item Name="remoteControlDistance.vi" Type="VI" URL="../remoteControlDistance.vi"/>
