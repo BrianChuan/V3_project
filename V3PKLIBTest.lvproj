@@ -117,6 +117,10 @@ AddOutputFilter chunkFilter
 			<Item Name="IR_ValueDisplay.vi" Type="VI" URL="../my VI/IR_ValueDisplay.vi"/>
 			<Item Name="ServoMotor_slowMove.vi" Type="VI" URL="../my VI/ServoMotor_slowMove.vi"/>
 			<Item Name="Beep.vi" Type="VI" URL="../my VI/Beep.vi"/>
+			<Item Name="Initialization.vi" Type="VI" URL="../my VI/Initialization.vi"/>
+			<Item Name="Catch_screw.vi" Type="VI" URL="../my VI/Catch_screw.vi"/>
+			<Item Name="UtrasonicCorrection.vi" Type="VI" URL="../my VI/UtrasonicCorrection.vi"/>
+			<Item Name="ClipPaning.vi" Type="VI" URL="../my VI/ClipPaning.vi"/>
 		</Item>
 		<Item Name="Blook" Type="Folder">
 			<Item Name="Action" Type="Folder">
@@ -243,13 +247,13 @@ AddOutputFilter chunkFilter
 			<Item Name="whitespace.ctl" Type="VI" URL="../WSCbot_V3_Toolkit.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../WSCbot_V3_Toolkit.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
-		<Item Name="servo_test.vi" Type="VI" URL="../servo_test.vi"/>
+		<Item Name="ServoTest.vi" Type="VI" URL="../ServoTest.vi"/>
+		<Item Name="OriginalServoTest.vi" Type="VI" URL="../OriginalServoTest.vi"/>
 		<Item Name="SteppperMotorTest.vi" Type="VI" URL="../SteppperMotorTest.vi"/>
 		<Item Name="RemoteControl.vi" Type="VI" URL="../RemoteControl.vi"/>
 		<Item Name="path_Forward.vi" Type="VI" URL="../path_Forward.vi"/>
 		<Item Name="path_left.vi" Type="VI" URL="../path_left.vi"/>
 		<Item Name="remoteControlDistance.vi" Type="VI" URL="../remoteControlDistance.vi"/>
-		<Item Name="test0927.vi" Type="VI" URL="../test0927.vi"/>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -503,10 +507,10 @@ AddOutputFilter chunkFilter
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="wscbotv3fpga_FPGATarget_WSCFPGA_1MB0KIQffZQ.lvbitx" Type="Document" URL="//Mac/Home/Desktop/V3_Toolkit/WSCbot_V3_Toolkit/WSCBOTV3_Toolkit/System/LowLevel/Bitfile/wscbotv3fpga_FPGATarget_WSCFPGA_1MB0KIQffZQ.lvbitx"/>
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="wscbotv3fpga_FPGATarget_WSCFPGA_1MB0KIQffZQ.lvbitx" Type="Document" URL="//Mac/Home/Desktop/V3_Toolkit/WSCbot_V3_Toolkit/WSCBOTV3_Toolkit/System/LowLevel/Bitfile/wscbotv3fpga_FPGATarget_WSCFPGA_1MB0KIQffZQ.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
