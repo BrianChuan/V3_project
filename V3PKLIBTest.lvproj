@@ -121,6 +121,10 @@ AddOutputFilter chunkFilter
 			<Item Name="Catch_screw.vi" Type="VI" URL="../my VI/Catch_screw.vi"/>
 			<Item Name="UtrasonicCorrection.vi" Type="VI" URL="../my VI/UtrasonicCorrection.vi"/>
 			<Item Name="ClipPaning.vi" Type="VI" URL="../my VI/ClipPaning.vi"/>
+			<Item Name="ServoAction.vi" Type="VI" URL="../my VI/ServoAction.vi"/>
+			<Item Name="ClipPinch.vi" Type="VI" URL="../my VI/ClipPinch.vi"/>
+			<Item Name="QuickRotation.vi" Type="VI" URL="../my VI/QuickRotation.vi"/>
+			<Item Name="Hight_control.vi" Type="VI" URL="../my VI/Hight_control.vi"/>
 		</Item>
 		<Item Name="Blook" Type="Folder">
 			<Item Name="Action" Type="Folder">
