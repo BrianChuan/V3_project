@@ -125,6 +125,7 @@ AddOutputFilter chunkFilter
 			<Item Name="ClipPinch.vi" Type="VI" URL="../my VI/ClipPinch.vi"/>
 			<Item Name="QuickRotation.vi" Type="VI" URL="../my VI/QuickRotation.vi"/>
 			<Item Name="Hight_control.vi" Type="VI" URL="../my VI/Hight_control.vi"/>
+			<Item Name="Catch_nut.vi" Type="VI" URL="../my VI/Catch_nut.vi"/>
 		</Item>
 		<Item Name="Blook" Type="Folder">
 			<Item Name="Action" Type="Folder">
