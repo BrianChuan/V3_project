@@ -111,9 +111,9 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="vision" Type="Folder">
 			<Item Name="visionDirection.vi" Type="VI" URL="../vision/visionDirection.vi"/>
-			<Item Name="visionTarget.vi" Type="VI" URL="../vision/visionTarget.vi"/>
 			<Item Name="visionScrew.vi" Type="VI" URL="../vision/visionScrew.vi"/>
 			<Item Name="visionNut.vi" Type="VI" URL="../vision/visionNut.vi"/>
+			<Item Name="visionTarget.vi" Type="VI" URL="../vision/visionTarget.vi"/>
 		</Item>
 		<Item Name="my VI" Type="Folder">
 			<Item Name="V3_IRCal_PID.vi" Type="VI" URL="../documentation/Blook/V3_IRCal_PID.vi"/>
@@ -124,7 +124,7 @@ AddOutputFilter chunkFilter
 			<Item Name="ServoMotor_slowMove.vi" Type="VI" URL="../my VI/ServoMotor_slowMove.vi"/>
 			<Item Name="Beep.vi" Type="VI" URL="../my VI/Beep.vi"/>
 			<Item Name="Initialization.vi" Type="VI" URL="../my VI/Initialization.vi"/>
-			<Item Name="Catch_screw.vi" Type="VI" URL="../my VI/Catch_screw.vi"/>
+			<Item Name="Catch_screw(stow_side).vi" Type="VI" URL="../my VI/Catch_screw(stow_side).vi"/>
 			<Item Name="UtrasonicCorrection.vi" Type="VI" URL="../my VI/UtrasonicCorrection.vi"/>
 			<Item Name="ClipPaning.vi" Type="VI" URL="../my VI/ClipPaning.vi"/>
 			<Item Name="ServoAction.vi" Type="VI" URL="../my VI/ServoAction.vi"/>
@@ -134,6 +134,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Catch_nut.vi" Type="VI" URL="../my VI/Catch_nut.vi"/>
 			<Item Name="Turn_screw.vi" Type="VI" URL="../my VI/Turn_screw.vi"/>
 			<Item Name="Judge_Arrow.vi" Type="VI" URL="../my VI/Judge_Arrow.vi"/>
+			<Item Name="Catch_screw(start_side).vi" Type="VI" URL="../my VI/Catch_screw(start_side).vi"/>
 		</Item>
 		<Item Name="Blook" Type="Folder">
 			<Item Name="Action" Type="Folder">
