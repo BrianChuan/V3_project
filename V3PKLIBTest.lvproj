@@ -131,10 +131,11 @@ AddOutputFilter chunkFilter
 			<Item Name="ClipPinch.vi" Type="VI" URL="../my VI/ClipPinch.vi"/>
 			<Item Name="QuickRotation.vi" Type="VI" URL="../my VI/QuickRotation.vi"/>
 			<Item Name="Hight_control.vi" Type="VI" URL="../my VI/Hight_control.vi"/>
-			<Item Name="Catch_nut.vi" Type="VI" URL="../my VI/Catch_nut.vi"/>
+			<Item Name="Catch_nut(show_side).vi" Type="VI" URL="../my VI/Catch_nut(show_side).vi"/>
 			<Item Name="Turn_screw.vi" Type="VI" URL="../my VI/Turn_screw.vi"/>
 			<Item Name="Judge_Arrow.vi" Type="VI" URL="../my VI/Judge_Arrow.vi"/>
 			<Item Name="Catch_screw(start_side).vi" Type="VI" URL="../my VI/Catch_screw(start_side).vi"/>
+			<Item Name="Catch_nut(star_side).vi" Type="VI" URL="../my VI/Catch_nut(star_side).vi"/>
 		</Item>
 		<Item Name="Blook" Type="Folder">
 			<Item Name="Action" Type="Folder">
