@@ -581,7 +581,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Catch_screw(stow_side).vi" Type="VI" URL="../my VI/Catch_screw(stow_side).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RemoteControl" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
