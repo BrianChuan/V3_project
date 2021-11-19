@@ -124,7 +124,6 @@ AddOutputFilter chunkFilter
 			<Item Name="ServoMotor_slowMove.vi" Type="VI" URL="../my VI/ServoMotor_slowMove.vi"/>
 			<Item Name="Beep.vi" Type="VI" URL="../my VI/Beep.vi"/>
 			<Item Name="Initialization.vi" Type="VI" URL="../my VI/Initialization.vi"/>
-			<Item Name="Catch_screw(stow_side).vi" Type="VI" URL="../my VI/Catch_screw(stow_side).vi"/>
 			<Item Name="UtrasonicCorrection.vi" Type="VI" URL="../my VI/UtrasonicCorrection.vi"/>
 			<Item Name="ClipPaning.vi" Type="VI" URL="../my VI/ClipPaning.vi"/>
 			<Item Name="ServoAction.vi" Type="VI" URL="../my VI/ServoAction.vi"/>
@@ -136,6 +135,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Judge_Arrow.vi" Type="VI" URL="../my VI/Judge_Arrow.vi"/>
 			<Item Name="Catch_screw(start_side).vi" Type="VI" URL="../my VI/Catch_screw(start_side).vi"/>
 			<Item Name="Catch_nut(star_side).vi" Type="VI" URL="../my VI/Catch_nut(star_side).vi"/>
+			<Item Name="Catch_screw(show_side).vi" Type="VI" URL="../my VI/Catch_screw(show_side).vi"/>
 		</Item>
 		<Item Name="Blook" Type="Folder">
 			<Item Name="Action" Type="Folder">
@@ -523,7 +523,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userDefined/High Color/IMAQdx.ctl"/>
-				<Item Name="Calculate Frames per Second.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Calculate Frames per Second.vi"/>
 				<Item Name="IVA Clear Coordsys Errors.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Clear Coordsys Errors.vi"/>
 				<Item Name="Imaq GetImageInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/Imaq GetImageInfo"/>
 				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
@@ -582,6 +581,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Catch_screw(stow_side).vi" Type="VI" URL="../my VI/Catch_screw(stow_side).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RemoteControl" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
