@@ -136,6 +136,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Catch_screw(start_side).vi" Type="VI" URL="../my VI/Catch_screw(start_side).vi"/>
 			<Item Name="Catch_nut(star_side).vi" Type="VI" URL="../my VI/Catch_nut(star_side).vi"/>
 			<Item Name="Catch_screw(show_side).vi" Type="VI" URL="../my VI/Catch_screw(show_side).vi"/>
+			<Item Name="Replace_screw_and_nut.vi" Type="VI" URL="../my VI/Replace_screw_and_nut.vi"/>
 		</Item>
 		<Item Name="Blook" Type="Folder">
 			<Item Name="Action" Type="Folder">
